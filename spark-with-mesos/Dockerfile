@@ -1,5 +1,5 @@
 #
-# Dockerfile user to launch a Spark client that can connect to Mesos to be launched on a cluster
+# Dockerfile used to launch a Spark client that can connect to Mesos to be launched on a cluster
 #
 # To build the image : 
 # sudo docker build -t spark-with-mesos_image
