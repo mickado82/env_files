@@ -1,0 +1,7 @@
+Host localhost
+  StrictHostKeyChecking no
+  Port 40022
+
+Host 0.0.0.0
+  StrictHostKeyChecking no
+  Port 40022
