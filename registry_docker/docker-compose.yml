@@ -1,0 +1,16 @@
+inforegistry:
+  restart: always
+  image: registry:2
+  ports:
+    - 5000:5000
+  volumes:
+    - /home/ufop01/shared/registry:/var/lib/registry
+
+registryui: 
+  image: hyper/docker-registry-web
+  environment:
+    REGISTRY_HOST: sep467ubuntu
+    REGISTRY_PORT: 5000
+    REGISTRY_AUTH: "YWRtaW46Y2hhbmdlbWU="
+  ports:
+    - 8080:8080 
