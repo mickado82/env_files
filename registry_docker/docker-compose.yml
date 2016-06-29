@@ -9,8 +9,8 @@ inforegistry:
 registryui: 
   image: hyper/docker-registry-web
   environment:
-    REGISTRY_HOST: sep467ubuntu
+    REGISTRY_HOST: CHANGE_ME_HOST_NAME
     REGISTRY_PORT: 5000
     REGISTRY_AUTH: "YWRtaW46Y2hhbmdlbWU="
   ports:
-    - 8080:8080 
+    - CHANGE_ME_PORT_ON_HOST:8080 
