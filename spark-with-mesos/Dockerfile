@@ -101,7 +101,7 @@ ADD hduser-sudoer /etc/sudoers.d/hduser-sudoer
 #ENV vars 
 
 ENV MESOS_NATIVE_JAVA_LIBRARY /usr/local/lib/libmesos.so
-ENV SPARK_EXECUTOR_URI http://sep467ubuntu:8000/spark-1.5.2-bin-hadoop2.4.tgz
+ENV SPARK_EXECUTOR_URI http://CHANGE_ME:8000/spark-1.5.2-bin-hadoop2.4.tgz
 
 # Select workdir and user
 WORKDIR /home/hduser

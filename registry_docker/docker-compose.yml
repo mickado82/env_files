@@ -4,7 +4,7 @@ inforegistry:
   ports:
     - 5000:5000
   volumes:
-    - /home/ufop01/shared/registry:/var/lib/registry
+    - MY_SHARED_HOST_FOLDER:/var/lib/registry
 
 registryui: 
   image: hyper/docker-registry-web
